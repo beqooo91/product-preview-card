@@ -1,0 +1,166 @@
+/* mobile design */
+
+body {    
+    background-color:#F2EAE2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div {
+    background-color: #FFFFFF;
+    height: 611px;
+    width: 343px;
+    border-radius: 10px;
+}
+
+.img-mobile {
+    max-width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 5px;
+    color: #6C7289;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    margin-left: 24px;
+}
+
+.header {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #1C232B;
+    margin-left: 24px;
+}
+
+p {
+    font-family: 'Montserrat';
+    height: 92px;
+    width: 295px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    margin-left: 24px;       
+}
+
+.div-price {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3D8168;
+    margin-left: 24.5px;
+}
+
+.small-price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    color: #6C7289;
+    margin-left: 19px;
+}
+
+.last-div {
+    height: 48px;
+    width: 295px;
+    background: #3D8168;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-left: 11.61px;
+}
+
+@media (max-width: 414px) {
+    .img-desktop {
+        display: none;
+    }
+}
+
+
+/* desktop design */
+
+@media (min-width: 414px) {
+
+    .main-div {
+        width: 600px;
+        height: 450px;
+        display: flex;        
+    }    
+
+    .img-mobile {
+        display: none;
+    }
+
+    .img-desktop {
+        width: 300px;
+        height: 450px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    h2 {
+        margin-top: 32px;
+        margin-bottom: 20px;
+        margin-left: 31.5px;
+    }
+
+    .header {
+        height: 96px;
+        width: 236px;
+        margin-left: 32px;
+    }
+
+    p {
+        height: 92px;
+        width: 237px;
+        margin-top: 24px;
+        margin-bottom: 29px;
+        margin-left: 31.5px;
+    }
+
+    .price {
+        margin-left: 32px;
+    }
+
+    .last-div {
+        width: 236px;
+        margin-top: 30px;
+        margin-left: 32px;        
+    }
+
+    .last-div:hover {
+        cursor: pointer;
+        background: #1A4032;
+    }
+}
